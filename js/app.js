@@ -79,7 +79,7 @@ function createFallingText(initial = false) {
 
     setTimeout(() => {
         text.remove();
-    }, (isMobile ? 3000 : 4000));
+    }, (isMobile ? 3000 : 5000));
 
     let posY = startY;
 
@@ -171,7 +171,7 @@ const initialRoseCount = isMobile ? 2 : 5;
 
 const textInterval = isMobile ? 500 : 200;
 const heartInterval = isMobile ? 800 : 500;
-const roseInterval = isMobile ? 800 : 500;
+const roseInterval = isMobile ? 1000 : 600;
 
 // Khởi tạo ban đầu với mật độ phù hợp
 for (let i = 0; i < initialTextCount; i++) {
