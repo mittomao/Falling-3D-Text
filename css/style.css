@@ -6,7 +6,10 @@ body {
     font-family: "Parisienne", cursive;
     perspective: 1000px;
     background: radial-gradient(circle at center, #200236, #000000 80%);
-    /* Đổi nền thành màu đen */
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 #scene {
